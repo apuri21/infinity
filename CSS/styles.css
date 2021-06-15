@@ -1,0 +1,560 @@
+html,body{
+    overflow-x: hidden;
+    color: white;
+}
+.navbarcolor {
+  background-color: black;
+}
+
+
+.item-color{
+  color: white;
+  font-size: 15px;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+  margin-right: 20px;
+
+}
+
+/*
+@media  (max-width: 994 px) {
+  .navbar-brand {
+    justify-content: flex-start;
+  }
+} */
+
+
+
+/* //end of nav section  */
+
+
+/* left section or right small content section  */
+.numberimg {
+  margin-bottom: -100px;
+  margin-left: -80px;
+}
+
+.numbering2 {
+  margin-bottom: -100px;
+  margin-left: -100px;
+}
+
+.services {
+  font-size: 65px;
+
+  margin-top: 80px;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+}
+
+.left-content {
+  font-family: 'Roboto Condensed',sans-serif;
+
+  font-size:20px;
+  margin-top: 50px;
+  margin-left: -10px;
+
+}
+
+.stickyspacer {
+  position:relative;
+  width: 270px;
+  height: 800px;
+  display: block;
+  float: left;
+
+}
+
+.stickyspacer2 {
+  position:relative;
+  width: 270px;
+  height: 1500px;
+  display: block;
+  float: left;
+
+}
+
+.makemesticky {
+  position: sticky;
+  top: 0;
+
+  width:270px;
+  float: left;
+
+}
+
+/* title banner section  */
+
+
+
+.title-main {
+  font-family: 'Satisfy',cursive;
+  color: pink;
+  font-size: 150px;
+  margin-top: 200px;
+}
+
+.title-heading {
+  font-family: 'Roboto Condensed',sans-serif;
+  color: white;
+  font-size:50px;
+  margin-top: 50px;
+}
+
+.left {
+  background-color: #d41e5b;
+  padding: 3%;
+
+}
+
+.right {
+  background-color: #eb3d63;
+  padding: 3%;
+
+}
+
+.service-list-h {
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size:40px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.service-list {
+  font-family: 'Roboto Condensed',sans-serif;
+
+  margin-top: 80px;
+
+}
+
+.text-1 {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.icon {
+  font-size: 5rem;
+  margin-left: 20px;
+}
+
+
+@media (min-width: 513px) and (max-width: 966px) {
+  /* .title-main {
+    font-size: 118px;
+    margin-left: 200px;
+
+  }
+.title-heading {
+  font-size :43px;
+  margin-left: 75px;
+
+} */
+
+}
+
+
+
+/* portfolio section  */
+
+
+.portfolio {
+  background-color: #505cc1;
+  padding: 3%;
+
+}
+
+.port-right {background-color: #5067c1;
+  padding: 3%;
+
+}
+
+
+
+
+.bgimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 500px;
+
+}
+
+.whoLeft {
+  background-color: #ffc43b;
+  padding: 3%;
+}
+
+.whoRight {
+
+    background-color: #ffd23e;
+    padding: 3%;
+}
+
+.intro {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 25px;
+
+
+}
+
+.text2 {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 14px;
+
+}
+
+.skillsLeft {
+  background-color: #505cc1;
+  padding: 3%;
+}
+
+.skillsRight {
+background-color:  #5067c1;
+padding: 3%;
+}
+.number {
+
+  font-size: 30px;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+  margin-right: 20px;
+}
+.language {
+
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.progress {
+  background-color:  #505cc1;
+}
+.progress-bar {
+  background-color:  white;
+}
+
+.lang {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.web-quote {
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+
+  font-size:30px;
+  margin-top: 80px;
+  margin-left: 170px;
+}
+
+.testleft {
+  background-color: black;
+  padding: 3%;
+}
+
+.testright {
+  background-color: black;
+  padding: 3%;
+
+}
+
+.contactleft {
+  background-color: #d41e5b;
+  padding: 3%;
+}
+
+.contactright {
+  background-color: #eb3d63;
+  padding: 3%;
+}
+
+.formfeilds {
+  background-color: #eb3d63;
+  border-top:  0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 5;
+  border-radius: 0;
+
+
+}
+
+.form-control {
+  color: white;
+  font-size: 1em;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+}
+
+
+
+.form-control:focus {
+    background: transparent;
+    outline-style: none;
+    color: white;
+    font-size: 1em;
+    font-family: 'Noto Sans JP',sans-serif;
+    font-weight: 100;
+
+}
+
+
+.button {
+  background-color: #eb3d63;
+}
+
+.contactdetails {
+  background-color: black;
+  padding-bottom: 3%;
+}
+
+
+
+
+
+.icon-contact {
+  color: white;
+  font-size: 30px;
+}
+.footer-text {
+  color: white;
+  font-size: 10px;
+}
+
+@media (min-width: 966px) and (max-width: 1100px) {
+  .icon {
+    font-size: 3rem;
+    margin-left: -5px;
+  }
+.number {
+  margin-right: 53px;
+}
+
+
+}
+
+
+
+@media (min-width: 648px) and (max-width: 1024px) {
+   br {
+    display: none;
+}
+.makemesticky {
+  width: 300%;
+
+
+}
+.left-content {
+  font-size: 75px;
+}
+.services {
+  font-size: 120px;
+  margin-left: -20px;
+  margin-top: 110px;
+}
+.numberimg {
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 40px;
+
+}
+
+.left {
+  background-color: #d41e5b;
+  padding: 3%;
+  height: 700px;
+
+}
+.right {
+  background-color: #d41e5b;
+  padding: 3%;
+  margin-top: -10px;
+  padding-bottom: 6%;
+
+}
+
+.service-list-h {
+  margin-top: -40px;
+  margin-left: -10px;
+  font-size: 50px;
+  opacity: 0.5;
+
+}
+
+.icon {
+  font-size: 10em;
+  margin-top: 125px;
+  margin-right: 50px;
+}
+
+.text-1 {
+  font-size: 40px;
+  opacity: 0.8;
+
+}
+
+h3 {
+  font-size: 80px;
+  margin-top: 50px;
+
+}
+
+.portfolio {
+  background-color: #505cc1;
+  padding: 3%;
+  height: 700px;
+
+}
+
+.port-right {background-color: #505cc1;
+  margin-top: -5px;
+  padding-bottom: 6%;
+
+}
+.updown {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.whoLeft {
+  background-color: #ffd23e;
+  padding: 3%;
+  padding-bottom: 6%
+}
+
+.whoRight {
+
+    background-color: #ffd23e;
+
+    height: 50px;
+}
+.grid1 {
+  margin-top: -300px;
+  z-index: 1;
+}
+.intro {
+  font-size: 35px;
+
+
+}
+
+.text2 {
+  font-size: 35px;
+  opacity: 0.8;
+
+}
+
+.imgset2 {
+  width: 150%;
+}
+
+.skillsLeft {
+  background-color:#5067c1;
+  padding: 3%;
+  height: 600px;
+}
+
+.skillsRight {
+background-color:  #5067c1;
+padding: 6%;
+margin-top: -10px;
+}
+
+.web-quote {
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+
+  font-size:40px;
+  margin-top: -10px;
+  margin-left: -10px;
+
+}
+
+.number {
+
+  font-size: 60px;
+
+  font-weight: 100;
+  margin-right: 100px;
+}
+.language {
+
+  font-size: 50px;
+
+  font-weight: 100;
+}
+
+.testright {
+  background-color: black;
+  padding: 6%;
+  margin-top: -10px;
+
+}
+.numbering2 {
+
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 40px;
+
+
+}
+
+.contactleft {
+  background-color: #d41e5b;
+  padding: 3%;
+}
+
+.contactright {
+  background-color:  #d41e5b;
+  padding: 6%;
+  margin-top: -250px;
+  z-index: 1;
+}
+
+.contact-us {
+  visibility: hidden;
+  margin-top: -20px;
+}
+
+.formfeilds {
+  background-color:  #d41e5b;
+  border-top:  0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 5;
+  border-radius: 0;
+
+}
+
+.form-control {
+  color: white;
+  font-size: 3em;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 100;
+}
+
+
+
+.form-control:focus {
+    background: transparent;
+    outline-style: none;
+    color: white;
+    font-size: 3em;
+    font-family: 'Noto Sans JP',sans-serif;
+    font-weight: 100;
+
+}
+
+
+.button {
+  background-color: #d41e5b;
+}
+
+label {
+  font-size: 40px;
+  opacity: 0.9;
+}
+}
